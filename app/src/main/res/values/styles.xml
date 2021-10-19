@@ -1,0 +1,31 @@
+<resources>
+
+<style name="AppTheme.NoActionBar" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <item name="colorPrimary">#f2b400</item>
+    <item name="colorPrimaryDark">#f2b400</item>
+    <item name="colorAccent">#f2b400</item>
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+<!--    <item name="android:actionButtonStyle">@style/myActionButtonStyle</item>-->
+<!--    <item name="actionButtonStyle">@style/myActionButtonStyle</item>-->
+<!--    <item name="android:windowContentTransitions">true</item>-->
+</style>
+    <style name="AppTheme.Home.NoActionBar.Home" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">#f2b400</item>
+        <item name="colorPrimaryDark">#f2b400</item>
+        <item name="colorAccent">#f2b400</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionButtonStyle">@style/myActionButtonStyle</item>
+        <item name="actionButtonStyle">@style/myActionButtonStyle</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="myActionButtonStyle" parent="Widget.AppCompat.ActionButton">
+        <item name="android:minWidth">30dp</item>
+        <item name="android:maxWidth">30dp</item>
+        <item name="android:width">30dp</item>
+    </style>
+
+
+</resources>

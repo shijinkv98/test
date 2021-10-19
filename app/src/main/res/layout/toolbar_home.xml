@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:elevation="6dp"
+    android:id="@+id/toolbar_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_200"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:contentInsetLeft="10dp"
+        android:contentInsetStart="10dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="6dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:paddingStart="14dp"
+                    android:paddingEnd="14dp"
+                    android:id="@+id/ivBackAction"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:layout_width="45dp"
+                    android:layout_height="match_parent"
+                    />
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    />
+
+
+                <FrameLayout
+                    android:id="@+id/flSearchAction"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:padding="@dimen/_5sdp"
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:clipToPadding="false"
+                    android:focusable="true">
+
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12365"/>
+
+        </FrameLayout>
+
+    </androidx.appcompat.widget.Toolbar >
+
+
+
+</FrameLayout>
